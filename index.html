@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>鐘文娸的個人網站</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Courgette|Pacifico" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<style>
 		body{
 			background-color: 	#FFF8DC;
@@ -27,12 +29,10 @@
 		h3{
 			color:	#008B8B
 		}
-		#Designed{
+		#designed{
 			text-align: center;
 		}
-		#aa{
-			text-align: center;
-		}
+	
 		hr{
 			height: 1px;
 			background-color: black;
@@ -40,18 +40,51 @@
 		p{
 			font-family: 'Pacifico', cursive;
 		}
+		img{
+			border: dotted 3px black;
+		}
+		td,th{
+			
+			padding: 15px;
+        }
+        li{
+        	padding: 6px;
+        }
+        h1{
+        	margin-top: 10px;
+        	margin-bottom: 15px;
+        }
+        #intro{
+        	margin-left: auto;
+        	margin-right: auto;
+        }
+
+        #aa{
+			text-align: center;
+
+		}
+		#detail{
+			margin-left: auto;
+        	margin-right: auto;
+
+		}
+
+
 
 	</style>
 </head>
+
+
+
 <body>
-<h1>kiki's Personal Wedsite</h1>
-<table>
+<h1>kiki's Personal Wedsite<i class="fas fa-paw"></i></h1>
+<table id="intro">
 	<tr>
 		<td>
 		<img src="img/2.jpg">
 		</td>
 		<td>
-		<h2>kiki</h2>
+		<h2>kiki<i class="fas fa-paw"></i></h2>
         <p><em><strong><a href="http://www.tscvs.ttct.edu.tw/tscvs/">台東高商廣告設計科</a>-學生</strong></em></p>
         <P>你好!我叫文娸，是台東高商廣設科的學生🏫，因為喜歡畫畫，也努力練畫畫練了許久，所以選擇進廣告設計這個科系🎨。<br>我最喜歡的事情就是練管樂🎼，在管樂我吹的是短笛，雖然是最小隻也是最輕的樂器，但我的聲音也是不容小覷的。</P>
 		</td>
@@ -59,26 +92,28 @@
 </table>
 <hr>
 
-<h3>專長</h3>
+
+<div id="detail" class="row">
+	<div class="col-lg-3"><h3>專長</h3>
 <ol type="a">
  <li>吹樂器</li>
  <li>畫畫</li>     
  <li>做手工藝</li>
-</ol>
+</ol></div>
 
-<h3>嗜好</h3>
+	<div class="col-lg-3"><h3>嗜好</h3>
 <ul>
  <li><a href="https://www.youtube.com/watch?v=0TGu0P2kmx8&list=PLF2EC947A6F21605B">聽管樂</a></li>	
  <li><a href="https://www.youtube.com/watch?v=60ItHLz5WEA&list=PLn_C_ogGl0kRevx61gfRuQivk6Cj6ITTA">唱歌</a></li>
  <li><a href="https://osu.ppy.sh/home">玩遊戲</a></li>
-</ul>
+</ul></div>
 
-<h3>學習經驗</h3>
+	<div class="col-lg-3"><h3>學習經驗</h3>
 <table>
-	<th>
-	    <td>時間</td>
-        <td>地點</td>
-	</th>
+	<tr>
+	    <th>時間</th>
+        <th>地點</th>
+	</tr>
     <tr>
     	<td>2016~2018</td>
         <td><a href="http://tcbjh2.boe.ttct.edu.tw/">台東縣台東市寶桑國民中學</a></td> 
@@ -88,7 +123,9 @@
         <td><a href="http://www.tscvs.ttct.edu.tw/tscvs/">國立台東高級商業職業學校</a></td>
     </tr>
 </table>
-<h3>能力</h3>
+        </div>
+
+	<div class="col-lg-3"><h3>能力</h3>
 <table>
 	<tr>
 		<th>名稱</th>
@@ -107,11 +144,15 @@
     	<td>🌈🌈🌈</td>
     </tr>
 </table>
+    </div>
+    </div>
+
+
 <div id="aa">
-<h3><a href="contact.html">聯絡資訊</a></h3>
-<p>歡迎聯絡我^^</p>
+	<h3><a href="contact.html">聯絡資訊</a></h3>
+	<p>歡迎聯絡我^^</p>
 </div>
-<p id="Designed">©2019 kiki個人網站. All rights reserved<br>
+<p id="designed">©2019 kiki個人網站. All rights reserved<br>
    Designed by kiki</p>
 
 
